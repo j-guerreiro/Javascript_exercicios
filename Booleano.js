@@ -1,0 +1,1 @@
+var gostoDeSorvete = false;
