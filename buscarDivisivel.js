@@ -1,5 +1,4 @@
 function buscarDivisivelPor(array, num) {
-  // Escreva abaixo o seu código:
 
   for ( let i = 0 ; i < array.length ; i++ ) {
     if ( ( array[i] != 0 ) && ( (array[i] % num ) == 0 ) ) {
