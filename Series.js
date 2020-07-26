@@ -1,3 +1,11 @@
+/*
+
+Programe uma função series que recebe dois parâmetros, 
+um prefixo com o nome da série e um array com a lista de todos os episódios da série. 
+A função deve retornar um novo array com a lista de episódios iniciando com o nome da série.
+
+*/
+
 var harryPotterPrefixo = "Harry Potter";
 var harryPotterSeries = [
   "e a Pedra Filosofal",
@@ -15,9 +23,7 @@ function series(prefixo, array) {
     for ( let i = 0 ; i < array.length ; i++ ) {
         vetor.push(prefixo + " " +  array[i]);
     }
-
-    return vetor;
-    
+    return vetor;   
 }
 
 console.log(series(harryPotterPrefixo, harryPotterSeries));
